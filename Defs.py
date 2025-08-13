@@ -99,7 +99,7 @@ def Wf_norm(L,Z,SS):
     Wf3 = 0
     for k in range(len(L)):
         if SS[k] == 1:
-            delta = (((Z[k]/Z[0])**3) - ((Z[k+1]/Z[0])**3))*(1/len(L))
+            delta = (((Z[k]/Z[0])**3) - ((Z[k+1]/Z[0])**3))
         elif SS[k] == 0:
             delta = 0
         Wf0 = Wf0 + delta
@@ -124,7 +124,7 @@ def Vf_norm(L,Z,SS):
     Wf3 = 0
     for k in range(len(L)):
         if SS[k] == 1:
-            delta = (((Z[k]/Z[0])) - ((Z[k+1]/Z[0])))*(1/len(L))
+            delta = (((Z[k]/Z[0])) - ((Z[k+1]/Z[0])))
         elif SS[k] == 0:
             delta = 0
         Wf0 = Wf0 + delta
