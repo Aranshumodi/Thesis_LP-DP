@@ -22,3 +22,7 @@ This repository consists of the following:
 - `Defs.py`: ABD, LP/FLP/DP evaluation, buckling load computation, utilities.
 - `README.md`: this file
 - `LICENSE`: CC BY-SA 4.0
+
+## License
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
