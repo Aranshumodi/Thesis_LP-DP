@@ -5,7 +5,7 @@ import argparse
 
 # GA for laminate stacking, with exact Vc via repair
 N_HALF      = 8
-POP_SIZE    = 500
+POP_SIZE    = 250
 GENERATIONS = 2000
 CXPB, MUTPB = 0.8, 0.2
 ANGLES      = [0, 45, -45, 90]

@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-"""
-Minimize Vc subject to a lower bound on normalized buckling load Nx*,
-with all physical bounds on lamination parameters enforced.
-"""
 import numpy as np
 from scipy.optimize import minimize
 from Defs import (
@@ -10,12 +5,12 @@ from Defs import (
     F1, F2, F3, F4,
     Nx_star
 )
+from Defs import Nx_max
 
 # Aspect ratio
 R = 1
 
 # Compute reference max buckling at known optimum
-from test2 import Nx_max
 # Required minimum buckling
 Nx_min = 0.9 * Nx_max
 
